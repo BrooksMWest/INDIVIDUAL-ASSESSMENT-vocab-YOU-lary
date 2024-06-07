@@ -1,11 +1,11 @@
 // USE WITH FIREBASE AUTH
-// import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
+import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
-    <h1>HELLO! You are up and running!</h1>
+    <h1>Welcome to Vocab-YOU-lary!</h1>
     <small>Open your dev tools</small><br />
     <button class="btn btn-danger" id="click-me">Click ME!</button><br />
     <hr />
@@ -19,7 +19,7 @@ const init = () => {
     .addEventListener('click', () => console.warn('You clicked that button!'));
 
   // USE WITH FIREBASE AUTH
-  // ViewDirectorBasedOnUserAuthStatus();
+  ViewDirectorBasedOnUserAuthStatus();
 };
 
 init();

@@ -1,25 +1,26 @@
+import { getTerms } from '../api/termData';
+import { showTerms } from '../pages/terms';
+import { signOut } from '../utils/auth';
+
 const navigationEvents = () => {
   // LOGOUT BUTTON
   document.querySelector('#logout-button')
     .addEventListener('click', signOut);
 
-
-  // TODO: ALL WORDS
-  document.querySelector('#all-words').addEventListener('click', () => {
-    getWords().then(showWords);
+  // TODO: ALL  TERMS
+  document.querySelector('#all-terms').addEventListener('click', () => {
+    getTerms().then(showTerms);
   });
 
   // FIXME: STUDENTS Create an event listener for the Authors
   // 1. When a user clicks the authors link, make a call to firebase to get all authors
   // 2. Convert the response to an array because that is what the makeAuthors function is expecting
   // 3. If the array is empty because there are no authors, make sure to use the emptyAuthor function
-  document.querySelector('#words').addEventListener('click', () => {
-    getAuthors().then(showAuthors);
-  });
+  //
   // event listener for showing favorite authors
-  document.querySelector('#favorite-authors').addEventListener('click', () => {
-    getAuthors().then(showAuthors);
-  });
+  // document.querySelector('#favorite-authors').addEventListener('click', () => {
+  //   getCategories().then(showCategories);
+  // });
   // STRETCH: SEARCH
   document.querySelector('#search').addEventListener('keyup', (e) => {
     const searchValue = document.querySelector('#search').value.toLowerCase();

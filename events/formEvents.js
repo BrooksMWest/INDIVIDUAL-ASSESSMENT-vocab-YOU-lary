@@ -33,6 +33,7 @@ const formEvents = () => {
         definition: document.querySelector('#definition').value,
         term_id: document.querySelector('#termId').value,
         term: document.querySelector('#term').value,
+        firebaseKey,
       };
       updateTerm(payload).then(() => {
         getTerms().then(showTerms);
@@ -40,7 +41,7 @@ const formEvents = () => {
     }
 
     // FIXME: ADD CLICK EVENT FOR SUBMITTING FORM FOR ADDING a category
-    if (e.target.id.includes('submit-Catergory')) {
+    if (e.target.id.includes('submit-catergory')) {
       const payload = {
         name: document.querySelector('#name').value,
         is_tech: document.querySelector('#is_tech').checked,
