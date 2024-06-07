@@ -2,6 +2,10 @@ import logoutButton from '../components/buttons/logoutButton';
 import domBuilder from '../components/shared/domBuilder';
 import navBar from '../components/shared/navBar';
 import navigationEvents from '../events/navigationEvents';
+import domEvents from '../events/domEvents';
+import formEvents from '../events/formEvents';
+import { getTerms } from '../api/termData';
+import { showTerms } from '../pages/terms';
 
 const startApp = () => {
   domBuilder(); // BUILD THE DOM
@@ -12,7 +16,7 @@ const startApp = () => {
   navigationEvents(); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
   // TODO: Put all vocab words on the DOM on App load
-  getWords().then((words) => showWords(words));
+  getTerms().then((words) => showTerms(words));
 };
 
-export startApp;
+export default startApp;
