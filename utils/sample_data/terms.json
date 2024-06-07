@@ -1,0 +1,90 @@
+{
+    "-OiBsfuTafbEQ7eAULxV": {
+      "id": 1,
+      "firebaseKey": "-OiBsfuTafbEQ7eAULxV",
+      "term": "Gobbledegook",
+      "CategoryId": 1,
+      "definition": "Just a bunch of numbers and symbols that don't make any sense.",
+      "uid": ""
+    },
+    "-OiCtghWcbaFJ9gTUVyY": {
+      "id": 2,
+      "firebaseKey": "-OiCtghWcbaFJ9gTUVyY",
+      "term": "Bamboozle",
+      "CategoryId": 2,
+      "definition": "To deceive or get the better of someone by trickery, flattery, or the like.",
+      "uid": ""
+    },
+    "-OiDuvHvXYZfQgkLKmNC": {
+      "id": 3,
+      "firebaseKey": "-OiDuvHvXYZfQgkLKmNC",
+      "term": "Flabbergasted",
+      "CategoryId": 1,
+      "definition": "To be greatly surprised or astonished.",
+      "uid": ""
+    },
+    "-OiEfweGtyuRLoJKlVPR": {
+      "id": 4,
+      "firebaseKey": "-OiEfweGtyuRLoJKlVPR",
+      "term": "Kerfuffle",
+      "CategoryId": 3,
+      "definition": "A commotion or fuss, especially one caused by conflicting views.",
+      "uid": ""
+    },
+    "-OiFghtVbnmfRpTUVzXP": {
+      "id": 5,
+      "firebaseKey": "-OiFghtVbnmfRpTUVzXP",
+      "term": "Collywobbles",
+      "CategoryId": 2,
+      "definition": "Pain in the abdomen and especially in the stomach; a bellyache.",
+      "uid": ""
+    },
+    "-OiGrtyLoiUYZhFgTUVc": {
+      "id": 6,
+      "firebaseKey": "-OiGrtyLoiUYZhFgTUVc",
+      "term": "Nincompoop",
+      "CategoryId": 1,
+      "definition": "A foolish or stupid person.",
+      "uid": ""
+    },
+    "-OiHtjiKlmYTUlPvTYRP": {
+      "id": 7,
+      "firebaseKey": "-OiHtjiKlmYTUlPvTYRP",
+      "term": "Malarkey",
+      "CategoryId": 3,
+      "definition": "Meaningless talk or nonsense.",
+      "uid": ""
+    },
+    "-OiItujMbnHJUYZTfVHc": {
+      "id": 8,
+      "firebaseKey": "-OiItujMbnHJUYZTfVHc",
+      "term": "Hodgepodge",
+      "CategoryId": 2,
+      "definition": "A confused mixture.",
+      "uid": ""
+    },
+    "-OiJykvLopITZgTuTUVd": {
+      "id": 9,
+      "firebaseKey": "-OiJykvLopITZgTuTUVd",
+      "term": "Lollygag",
+      "CategoryId": 1,
+      "definition": "To spend time aimlessly; to idle or dawdle.",
+      "uid": ""
+    },
+    "-OiKzioPqrWYkFtTVZgE": {
+      "id": 10,
+      "firebaseKey": "-OiKzioPqrWYkFtTVZgE",
+      "term": "Poppycock",
+      "CategoryId": 3,
+      "definition": "Nonsense.",
+      "uid": ""
+    },
+    "-OiLxlqHqwTZiVuTWYhF": {
+      "id": 11,
+      "firebaseKey": "-OiLxlqHqwTZiVuTWYhF",
+      "term": "Rigmarole",
+      "CategoryId": 2,
+      "definition": "A lengthy and complicated procedure.",
+      "uid": ""
+    }
+  }

@@ -1,0 +1,91 @@
+
+{
+  "-NiBsfuTafbEQ7eAULxV": {
+    "id": 1,
+    "firebaseKey": "-NiBsfuTafbEQ7eAULxV",
+    "name": "Javascript",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiCtghWcbaFJ9gTUVyY": {
+    "id": 2,
+    "firebaseKey": "-NiCtghWcbaFJ9gTUVyY",
+    "name": "Python",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiDuvHvXYZfQgkLKmNC": {
+    "id": 3,
+    "firebaseKey": "-NiDuvHvXYZfQgkLKmNC",
+    "name": "Java",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiEfweGtyuRLoJKlVPR": {
+    "id": 4,
+    "firebaseKey": "-NiEfweGtyuRLoJKlVPR",
+    "name": "C++",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiFghtVbnmfRpTUVzXP": {
+    "id": 5,
+    "firebaseKey": "-NiFghtVbnmfRpTUVzXP",
+    "name": "Ruby",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiGrtyLoiUYZhFgTUVc": {
+    "id": 6,
+    "firebaseKey": "-NiGrtyLoiUYZhFgTUVc",
+    "name": "Go",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiHtjiKlmYTUlPvTYRP": {
+    "id": 7,
+    "firebaseKey": "-NiHtjiKlmYTUlPvTYRP",
+    "name": "Swift",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiItujMbnHJUYZTfVHc": {
+    "id": 8,
+    "firebaseKey": "-NiItujMbnHJUYZTfVHc",
+    "name": "Kotlin",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiJykvLopITZgTuTUVd": {
+    "id": 9,
+    "firebaseKey": "-NiJykvLopITZgTuTUVd",
+    "name": "TypeScript",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiKzioPqrWYkFtTVZgE": {
+    "id": 10,
+    "firebaseKey": "-NiKzioPqrWYkFtTVZgE",
+    "name": "PHP",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  },
+  "-NiLxlqHqwTZiVuTWYhF": {
+    "id": 11,
+    "firebaseKey": "-NiLxlqHqwTZiVuTWYhF",
+    "name": "Rust",
+    "isLanguage": true,
+    "isTech": false,
+    "uid": ""
+  }
+}
