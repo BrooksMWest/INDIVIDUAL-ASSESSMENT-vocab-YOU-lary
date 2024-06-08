@@ -16,7 +16,7 @@ const startApp = () => {
   navigationEvents(); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
   // TODO: Put all vocab words on the DOM on App load
-  getTerms().then((words) => showTerms(words));
+  getTerms().then((terms) => showTerms(terms));
 };
 
 export default startApp;

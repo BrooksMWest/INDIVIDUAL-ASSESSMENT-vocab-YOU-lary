@@ -14,18 +14,18 @@ const navBar = () => {
             <a class="nav-link" href="#" id="logo">LOGO</a>
           </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" id="create-entry">
+              <a class="nav-link" href="#" id="create-term">
                 Create Entry <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" id="show-words">
-                Show All Vocabulary Words<span class="sr-only">(current)</span>
+              <a class="nav-link" href="#" id="all-terms">
+                Show All Vocabulary Terms<span class="sr-only">(current)</span>
               </a>
             </li>
           </ul>
           <span class="navbar-text">
-            <div id="cart-button"></div>
+      
             <div id="logout-button"></div>
           </span>
         </div>

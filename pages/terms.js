@@ -16,7 +16,6 @@ const showTerms = (array) => {
   array.forEach((item) => {
     domString += `
       <div class="card">
-        <img class="card-img-top" src=${item.term} alt=${item.term} style="height: 400px;">
         <div class="card-body" style="height: 180px;">
           <h5 class="card-definition">${item.term}</h5>
             <p class="card-text bold">${item.definition}</p>
