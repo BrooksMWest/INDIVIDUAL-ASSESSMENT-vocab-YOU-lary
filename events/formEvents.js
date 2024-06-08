@@ -29,7 +29,7 @@ const formEvents = () => {
     if (e.target.id.includes('update-term')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
-        category_id: document.querySelector('#categoryId').value,
+        category_id: document.querySelector('#category_Id').value,
         definition: document.querySelector('#definition').value,
         term_id: document.querySelector('#termId').value,
         term: document.querySelector('#term').value,

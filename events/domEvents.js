@@ -20,7 +20,8 @@ const domEvents = () => {
     // TODO: CLICK EVENT FOR SHOWING FORM FOR ADDING A TERM
     if (e.target.id.includes('add-term-btn')) {
       addTermForm();
-      // console.warn('ADD BOOK');
+      // console.warn('ADD TERM', e.target.id);
+      // console.warn(e.target.id.split('--'));
     }
 
     // TODO: CLICK EVENT EDITING/UPDATING A TERM
@@ -39,7 +40,7 @@ const domEvents = () => {
     // console.warn(e.target.id.split('--'));
     // }
 
-    // FIXME: ADD CLICK EVENT FOR DELETING ANCATEGORY
+    // FIXME: ADD CLICK EVENT FOR DELETING A CATEGORY
     // if (e.target.id.includes('delete-category-btn')) {
     //   // eslint-disable-next-line no-alert
     //   if (window.confirm('Want to delete?')) {
