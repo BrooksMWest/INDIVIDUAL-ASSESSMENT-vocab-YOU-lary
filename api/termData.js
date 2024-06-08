@@ -6,7 +6,7 @@ const endpoint = client.databaseURL;
 
 // GET TERMS BY CATEGORY ID
 const getTermsByCategoryId = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/terms.json?orderBy="CategroyID"&equalTo=${firebaseKey}"`, {
+  fetch(`${endpoint}/terms.json?orderBy="CategoryId"&equalTo="${firebaseKey}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

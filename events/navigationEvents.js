@@ -13,19 +13,19 @@ const navigationEvents = () => {
   });
   // GET javascript terms event listener
   document.querySelector('#javascript').addEventListener('click', () => {
-    getTermsByCategoryId().then(showTerms);
+    getTermsByCategoryId('Javascript').then(showTerms);
   });
   // GET Python terms event listener
   document.querySelector('#python').addEventListener('click', () => {
-    getTermsByCategoryId().then(showTerms);
+    getTermsByCategoryId('Python').then(showTerms);
   });
   // GET C++ terms event listener
   document.querySelector('#c-plus-plus').addEventListener('click', () => {
-    getTermsByCategoryId().then(showTerms);
+    getTermsByCategoryId('C++').then(showTerms);
   });
   // GET Ruby terms event listener
   document.querySelector('#ruby').addEventListener('click', () => {
-    getTermsByCategoryId().then(showTerms);
+    getTermsByCategoryId('Ruby').then(showTerms);
   });
   // STRETCH: SEARCH
   document.querySelector('#search').addEventListener('keyup', (e) => {
