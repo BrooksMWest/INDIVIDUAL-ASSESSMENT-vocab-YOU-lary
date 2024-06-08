@@ -7,7 +7,7 @@ const init = () => {
   document.querySelector('#app').innerHTML = `
     <h1>Welcome to Vocab-YOU-lary!</h1>
    
-    <button class="btn btn-danger" id="click-me">This is a button tha needs to be gone.</button>
+    <button class="btn btn-danger" id="click-me">Pay no attention to this button.</button>
     <hr />
 
   `;

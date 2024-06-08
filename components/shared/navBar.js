@@ -14,15 +14,29 @@ const navBar = () => {
             <a class="nav-link" href="#" id="logo">LOGO</a>
           </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" id="create-term">
-                Create Entry <span class="sr-only">(current)</span>
+              <a class="nav-link" href="#" id="all-terms">
+                All Terms<span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" id="all-terms">
-                Show All Vocabulary Terms<span class="sr-only">(current)</span>
-              </a>
+              <a class="nav-link" href="#" id="javascript">
+              Javascript<span class="sr-only">(current)</span></a>
+            <li class="nav-item active">
+             <a class="nav-link" href="#" id="python">
+             Python<span class="sr-only">(current)</span>
+             </a>
             </li>
+            <li class="nav-item active">
+             <a class="nav-link" href="#" id="c-plus-plus">
+             C++<span class="sr-only">(current)</span>
+             </a>
+            </li>
+            <li class="nav-item active">
+             <a class="nav-link" href="#" id="ruby">
+             Ruby<span class="sr-only">(current)</span>
+             </a>
+            </li>
+           
           </ul>
           <span class="navbar-text">
       

@@ -5,7 +5,7 @@ import { getCategoryTerms, getSingleCategory, deleteSingleCategory } from './cat
 const getTermDetails = (firebaseKey) => new Promise((resolve, reject) => {
   // GET SINGLE TERM
   getSingleTerm(firebaseKey).then((termObject) => { // returns single term object
-    getSingleCategory(termObject.categor_id) // we nest this promise so that we can use the term object
+    getSingleCategory(termObject.category_id) // we nest this promise so that we can use the term object
       .then((categoryObject) => resolve({ ...termObject, categoryObject }));
   }).catch(reject);
   // GET AUTHOR
