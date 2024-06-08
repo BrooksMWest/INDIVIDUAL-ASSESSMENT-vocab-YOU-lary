@@ -17,8 +17,8 @@ const showTerms = (array) => {
     domString += `
       <div class="card" style="width: 18rem;">
         <div class="card-body" style="width: 18rem;">
-          <h5 class="card-definition">${item.term}</h5>
-          <h3 class="card-category">Category: ${item.categoryId}</h3>
+          <h4 class="card-definition">${item.term}</h4>
+          <h5 class="card-category">Category: ${item.CategoryId}</h5>
             <p class="card-text bold">${item.definition}</p>
             <hr>
 
