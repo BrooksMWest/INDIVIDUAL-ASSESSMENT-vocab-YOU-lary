@@ -19,9 +19,9 @@ const navigationEvents = () => {
   document.querySelector('#python').addEventListener('click', () => {
     getTermsByCategoryId('Python').then(showTerms);
   });
-  // GET C++ terms event listener
-  document.querySelector('#c-plus-plus').addEventListener('click', () => {
-    getTermsByCategoryId('C++').then(showTerms);
+  // GET CSS terms event listener
+  document.querySelector('#css').addEventListener('click', () => {
+    getTermsByCategoryId('CSS').then(showTerms);
   });
   // GET Ruby terms event listener
   document.querySelector('#ruby').addEventListener('click', () => {

@@ -9,9 +9,8 @@ const formEvents = () => {
     // TODO: CLICK EVENT FOR SUBMITTING FORM FOR ADDING A TERM
     if (e.target.id.includes('submit-term')) {
       const payload = {
-        category_id: document.querySelector('#categoryId').value,
+        CategoryId: document.querySelector('#category_id').value,
         definition: document.querySelector('#definition').value,
-        term_id: document.querySelector('#termId').value,
         term: document.querySelector('#term').value,
       };
       // console.warn('CLICKED SUBMIT TERM', e.target.id);
@@ -29,9 +28,8 @@ const formEvents = () => {
     if (e.target.id.includes('update-term')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
-        category_id: document.querySelector('#category_Id').value,
+        CategoryId: document.querySelector('#category_id').value,
         definition: document.querySelector('#definition').value,
-        term_id: document.querySelector('#termId').value,
         term: document.querySelector('#term').value,
         firebaseKey,
       };
