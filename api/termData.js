@@ -4,6 +4,25 @@ import client from '../utils/client';
 
 const endpoint = client.databaseURL;
 
+// GET TERMS BY CATEGORY ID
+const getTermsByCategoryId = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/terms.json?orderBy="CategoryId"&equalTo="${firebaseKey}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    }
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    })
+    .catch(reject);
+});
+
 // TODO: GET TERMS
 const getTerms = () => new Promise((resolve, reject) => {
   fetch(`${endpoint}/terms.json`, {
@@ -97,5 +116,6 @@ export {
   createTerm,
   deleteTerm,
   getSingleTerm,
-  updateTerm
+  updateTerm,
+  getTermsByCategoryId
 };

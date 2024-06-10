@@ -1,4 +1,4 @@
-import { getTerms } from '../api/termData';
+import { getTerms, getTermsByCategoryId } from '../api/termData';
 import { showTerms } from '../pages/terms';
 import { signOut } from '../utils/auth';
 
@@ -11,21 +11,21 @@ const navigationEvents = () => {
   document.querySelector('#all-terms').addEventListener('click', () => {
     getTerms().then(showTerms);
   });
-  // javascript terms event listener
+  // GET javascript terms event listener
   document.querySelector('#javascript').addEventListener('click', () => {
-    getTerms().then(showTerms);
+    getTermsByCategoryId('Javascript').then(showTerms);
   });
-  // Python terms event listener
+  // GET Python terms event listener
   document.querySelector('#python').addEventListener('click', () => {
-    getTerms().then(showTerms);
+    getTermsByCategoryId('Python').then(showTerms);
   });
-  // C++ events listener
-  document.querySelector('#c-plus-plus').addEventListener('click', () => {
-    getTerms().then(showTerms);
+  // GET CSS terms event listener
+  document.querySelector('#css').addEventListener('click', () => {
+    getTermsByCategoryId('CSS').then(showTerms);
   });
-  // Ruby events listener
+  // GET Ruby terms event listener
   document.querySelector('#ruby').addEventListener('click', () => {
-    getTerms().then(showTerms);
+    getTermsByCategoryId('Ruby').then(showTerms);
   });
   // STRETCH: SEARCH
   document.querySelector('#search').addEventListener('keyup', (e) => {

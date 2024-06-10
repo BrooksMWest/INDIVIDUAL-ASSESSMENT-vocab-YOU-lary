@@ -27,8 +27,8 @@ const navBar = () => {
              </a>
             </li>
             <li class="nav-item active">
-             <a class="nav-link" href="#" id="c-plus-plus">
-             C++<span class="sr-only">(current)</span>
+             <a class="nav-link" href="#" id="css">
+             CSS<span class="sr-only">(current)</span>
              </a>
             </li>
             <li class="nav-item active">
