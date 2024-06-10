@@ -11,12 +11,12 @@ const addTermForm = (obj = {}) => {
         <input type="text" class="form-control" id="term" aria-describedby="term" placeholder="Enter New Vocabulary word" value="${obj.term || ''}" required>
       </div>
       <div class="form-group">
-        <label for="category">Category</label>
-        <textarea class="form-control" placeholder="category" id="category_id" style="height: 100px">${obj.category || ''}</textarea>
+        <label for="category">Programming Language</label>
+        <textarea class="form-control" placeholder="category" id="category_id" style="height: 100px">${obj.CategoryId || ''}</textarea>
       </div>
       <div class="form-group">
         <label for="description">Description</label>
-        <textarea class="form-control" placeholder="description" id="definition" style="height: 100px">${obj.category || ''}</textarea>
+        <textarea class="form-control" placeholder="description" id="definition" style="height: 100px">${obj.definition || ''}</textarea>
       </div>
       <div class="form-group" id="select-category">
       </div>
